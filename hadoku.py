@@ -260,8 +260,3 @@ while menu:
 	else:
 		print "Até à próxima!!"
 		menu = 0
-
-
-
-
-
