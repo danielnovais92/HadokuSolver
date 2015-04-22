@@ -150,11 +150,9 @@ def solvePuzzle ():
 				for i in range (1, 1 + maxArea(Board[x][y])):
 					row, v = getRows(i, x, y)
 					for l in range (len(row)):
-						#print 'Se', cells[x][y], '==', i, 'entao', row[l], '!=', v
 						s.add(Implies(cells[x][y] == i, row[l] != v))
 					col, v = getCols(i, x, y)
 					for l in range (len(col)):
-						#print 'Se', cells[x][y], '==', i, 'entao', col[l], '!=', v
 						s.add(Implies(cells[x][y] == i, col[l] != v))
 	return s
 
