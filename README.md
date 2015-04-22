@@ -9,7 +9,9 @@ Sudoku Solver in python+Z3: http://lauri.xn--vsandi-pxa.com/tub/qaoes/z3.html
 
 
 Usage:
-  $ python hadoku.py h6.txt
+  $ python hadoku.py hx.txt
+  
+  hx = h1, h2, ...
   
 h6.txt refers to the unsolved puzzle, it has two grids: One for the pre-filled cells an another for the areas. 
 
