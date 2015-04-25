@@ -208,7 +208,7 @@ while menu:
 			m = s.model()
 			print "Modelo encontrado:"
 			printCheckedBoard(m)
-			print "Verifique a pasta pelo ficheiro com as asserções!"
+			print "Verifique a pasta pelo ficheiro (asserts-" + sys.argv[1] + ") com as asserções!"
 			save2file(s)
 		else:
 			print "Impossivel de resolver"
@@ -226,7 +226,7 @@ while menu:
 					m = s.model()
 					print "Modelo encontrado:"
 					printCheckedBoard(m)
-					print "Verifique a pasta pelo ficheiro com as asserções!"
+					print "Verifique a pasta pelo ficheiro (asserts-" + sys.argv[1] + ") com as asserções!"
 					save2file(s)
 				else:
 					print "Impossivel de resolver"
